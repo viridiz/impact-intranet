@@ -1,0 +1,22 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #dfdad4;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.container {
+  width: 90%; /* Set the maximum width to 90% of the viewport */
+  margin: 0 auto; /* Center the container horizontally */
+}

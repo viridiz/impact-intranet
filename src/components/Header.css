@@ -1,0 +1,62 @@
+header {
+  background-color: #dfdad4; /* Change to your preferred background color */
+  padding: 20px 0px; /* Adjust padding as needed */
+}
+
+.nav-container {
+  display: flex; /* Use Flexbox for layout */
+  justify-content: space-between; /* Space between left and right sections */
+  align-items: center; /* Vertically center items */
+}
+
+.left {
+  display: flex; /* This allows buttons to be inline */
+}
+
+.left a {
+  margin-right: 20px; /* Space between buttons */
+}
+
+.left a:last-child {
+  margin-right: 0; /* No margin on the last button */
+}
+
+button {
+  padding: 10px 20px; /* Add padding to buttons for better appearance */
+  background-color: #dfdad4; /* Button background color */
+  color: black; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 4px;
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker background on hover */
+}
+
+.button-group {
+  display: flex; /* Use Flexbox for button alignment */
+  align-items: center; /* Vertically center buttons */
+}
+
+.right {
+  margin-left: auto; /* Push the right section to the right */
+}
+
+.right a {
+  margin-left: 20px; /* Space before the Login button */
+}
+
+.vertical-divider {
+  width: 1px; /* Width of the vertical line */
+  background-color: black; /* Color of the vertical line */
+  height: 30px; /* Height of the vertical line */
+  margin: 0 10px; /* Space around the vertical line */
+}
+
+.header-divider {
+  border: none; /* Remove default border */
+  height: 1px; /* Height of the horizontal line */
+  background-color: black; /* Color of the horizontal line */
+  margin: 0;
+}
