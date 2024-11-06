@@ -8,7 +8,7 @@ const UnitsPage = () => {
     const navigate = useNavigate(); // Hook to navigate programmatically
 
     const handleUnitClick = (id) => {
-        navigate(`/units/${id}`); // Navigate to the unit detail page
+        navigate(`${id}`); // Navigate to the unit detail page
     };
     return (
         <>
